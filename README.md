@@ -134,3 +134,12 @@ AI-Presentation-Prompt-Engineering/
 ---
 
 **Created:** September 2026
+V1 → V2 → V3: The presentation evolved from a basic output into a more structured, executive-ready and evidence-based deliverable.
+
+V1: Baseline — 6.5/10
+V2: Improved — 8/10
+V3: Strongest — 9/10
+
+Key upgrades: Better storytelling, visual hierarchy, data interpretation, consistency and actionable recommendations.
+
+Next: Improve visual polish, source documentation, analytical depth and prompt consistency.
