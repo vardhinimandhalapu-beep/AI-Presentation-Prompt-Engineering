@@ -157,3 +157,170 @@ End with clear, evidence-based takeaways and actionable recommendations where ap
 
 Output: Generate the final ".pptx" directly and provide an openable/downloadable PowerPoint link.
 https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/username/repository/main/NovaFlow_Q2_Product_Performance_Review.pptx
+NovaFlow Presentation Prompt Engineering — Version Evolution Report
+
+1. Project Overview
+
+This project demonstrates iterative prompt engineering for creating a professional NovaFlow Q2 2026 business presentation.
+
+The goal was to improve:
+
+- Data accuracy
+- Evidence-based storytelling
+- Business interpretation
+- Slide structure
+- Visual clarity
+- Chart selection
+- Executive readability
+- Recommendation quality
+
+The prompt evolved from V1 to V4, with each version addressing weaknesses in the previous output.
+
+2. Iterative Process
+
+Raw Data → Prompt → Presentation → Evaluation → Improvements → New Version
+
+The presentation was refined through repeated testing rather than one prompt.
+
+3. Version Evolution
+
+V1 — Baseline
+
+V1 tested whether AI could convert the dataset into a complete presentation.
+
+Focus:
+
+- Data inclusion
+- Basic slide sequence
+- Main business story
+- Complete output
+
+V1 → V2
+
+V2 added clearer instructions for:
+
+- Slide structure
+- Business narrative
+- Visual usage
+- Metric interpretation
+- Presentation consistency
+
+Key lesson: “Create a professional presentation” is too vague. AI needs explicit rules.
+
+V2 → V3
+
+V3 introduced:
+
+Evidence → Interpretation → Visual → Business implication
+
+It separated facts from unsupported causation and added:
+
+- KPI cards
+- Comparison charts
+- Feature adoption visuals
+- Customer-health indicators
+- Mobile stability analysis
+- Marketing conversion analysis
+- Q3 priorities
+- Executive takeaway
+
+V3 was marked meeting-ready for the synthetic dataset.
+
+V3 → V4
+
+V4 refined the complete presentation by improving:
+
+- Readability
+- Visual consistency
+- Hierarchy
+- Evidence-based recommendations
+- Executive communication
+- Presentation readiness
+
+4. Key Improvements
+
+Area| Early Version| V4
+Data| Basic usage| Evidence-driven
+Prompt| General| Structured
+Story| Metric-focused| Insight-focused
+Charts| Automated| Purpose-driven
+Claims| Possible overclaiming| Evidence-limited
+Recommendations| General| Data-connected
+Communication| Informational| Decision-oriented
+
+5. Main Evidence
+
+The improved deck covered:
+
+- Q2 growth indicators
+- Customer growth
+- AI Assistant adoption: 24% → 38%
+- Retention: 89.4%, down 1.7 pp
+- Satisfaction: 4.0/5, down 0.2
+- Support tickets: 4,180, up 29.0%
+- Resolution time: 10.6 hours, up 47.2%
+- Mobile stability
+- Marketing conversion
+- Q3 priorities:
+  1. Stabilise mobile
+  2. Improve support
+  3. Protect retention
+  4. Review conversion
+
+Recommendations were presented as Q2-based proposals, not approved decisions.
+
+6. Evaluation Framework
+
+- Data Accuracy — 20%
+- Analytical Reasoning — 20%
+- Storytelling — 15%
+- Visual Communication — 15%
+- Slide Structure — 10%
+- Executive Readability — 10%
+- Recommendations — 10%
+
+Total: 100%
+
+Final V4 Score
+
+V4 Score: 92/100
+
+V4 was the strongest version because it combined accurate data, evidence-based reasoning, clear storytelling, consistent visuals and actionable recommendations.
+
+7. Key Lesson
+
+The strongest version is not the one with the most information or visual effects.
+
+It is the one that:
+
+uses data correctly → identifies signals → avoids unsupported claims → communicates clearly → creates useful priorities.
+
+8. Reproducible Workflow
+
+1. Prepare and verify the dataset.
+2. Define the audience.
+3. Define the presentation objective.
+4. Create V1.
+5. Evaluate using fixed criteria.
+6. Convert weaknesses into prompt rules.
+7. Generate V2 and V3.
+8. Improve evidence handling and visual storytelling.
+9. Generate V4.
+10. Validate numbers, claims, charts, recommendations and readability.
+11. Finalize the presentation.
+
+9. Core Pattern
+
+Raw Data → Prompt → V1 → Evaluate → Improve Rules → V2 → Re-evaluate → V3 → Refine → V4 → Validate → Meeting-Ready Presentation
+
+10. Conclusion
+
+The NovaFlow experiment shows that strong AI presentations require more than asking for a professional PowerPoint.
+
+The prompt must define:
+
+data + analysis + storytelling + visuals + evidence limits + recommendations + validation.
+
+The final result is therefore not just a presentation prompt, but an iterative presentation-generation and evaluation methodology.
+
+NovaFlow and its dataset are fictional and were created for prompt-engineering experimentation.
