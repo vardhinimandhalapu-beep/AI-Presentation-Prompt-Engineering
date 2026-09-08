@@ -324,3 +324,32 @@ data + analysis + storytelling + visuals + evidence limits + recommendations + v
 The final result is therefore not just a presentation prompt, but an iterative presentation-generation and evaluation methodology.
 
 NovaFlow and its dataset are fictional and were created for prompt-engineering experimentation.
+Workflow
+
+Raw Data → Prompt → V1 → Evaluate → Improve → V2 → Re-evaluate → V3 → Refine → V4 → Validate → Final Presentation
+
+What Improved
+
+- Better data accuracy
+- Stronger evidence-based analysis
+- Clearer storytelling
+- Better visual hierarchy
+- More purposeful charts
+- Evidence-linked recommendations
+- Improved executive readability
+
+Evaluation
+
+Each version was evaluated using:
+
+Data Accuracy · Analysis · Storytelling · Visuals · Structure · Readability · Recommendations
+
+Key Learning
+
+Prompt engineering is iterative: generate → evaluate → identify weaknesses → improve the prompt → regenerate → validate.
+
+Status
+
+Project Completed — V1 to V4 iterative prompt-engineering workflow documented.
+
+«NovaFlow and its dataset are fictional and created for experimentation.»
