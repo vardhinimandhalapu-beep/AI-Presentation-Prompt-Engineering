@@ -615,3 +615,40 @@ Q2 delivered strong growth, but the next priority is to strengthen retention, re
 Visual: Executive summary layout with two balanced sections and a prominent final takeaway.
 
 Speaker Notes: Close by connecting the positive growth results with the main risks. The key focus is sustainable growth supported by stronger customer experience and product reliability.
+V1 vs V2 — Output Comparison
+
+Both versions used the same NovaFlow Q2 dataset.
+
+Area| V1| V2
+Prompt| Long & repetitive| Short & structured
+Accuracy| Some unsupported claims| Better controlled
+Evidence| Sometimes mixed| Clearly classified
+Verification| Scattered| Structured
+Storyline| Basic| More focused
+Titles| Topic-based| Message-driven
+Visuals| Plain| More visual
+Design| Basic| Modern & consistent
+Background| Plain| Professional
+3D/Depth| Limited| Added subtly
+Recommendations| Some unsupported targets| Evidence-based
+
+Key Improvements
+
+- Shorter, clearer prompt
+- Better evidence and verification
+- Stronger storyline
+- Improved visual design
+- Professional backgrounds and subtle 3D/depth
+- Fewer unsupported claims and targets
+
+Remaining Limitations
+
+- Visual rendering depends on the presentation tool.
+- Some slides may still need further refinement.
+- V2 needs testing with more datasets.
+
+Conclusion
+
+V2 improves V1 by making the workflow shorter, more controlled, evidence-based, and visually stronger.
+
+Further refinement will be considered only if V2 evaluation identifies meaningful remaining issues.
