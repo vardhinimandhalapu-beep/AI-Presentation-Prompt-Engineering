@@ -161,3 +161,195 @@ V2: Shorter, structured, precise, and controlled.
 The goal of V2 is not to add more instructions, but to make the existing instructions more effective.
 
 «Key Learning: A longer prompt does not automatically produce a better result. Clear structure, constraints, verification, and purposeful instructions matter more.»
+# V2 — Refined AI Presentation Prompt
+
+## ROLE
+
+Act as a presentation strategist, business analyst, and visual presentation designer.
+
+Transform the provided source material into an accurate, concise, professional, and meeting-ready presentation.
+
+---
+
+## 1. INPUT & OBJECTIVE
+
+First identify:
+
+- Source material
+- Presentation objective
+- Target audience
+- Meeting context and duration
+- Desired slide count, if provided
+
+Do not invent missing information. Mark important missing details as **Assumption** or **Needs Verification**.
+
+---
+
+## 2. ANALYSE & CLASSIFY
+
+Analyse the complete source before creating slides.
+
+Identify the most important:
+
+- Facts and metrics
+- Trends and comparisons
+- Problems and opportunities
+- Risks and dependencies
+- Decisions and recommendations
+
+Classify important statements as:
+
+**Fact | Calculation | Interpretation | Recommendation**
+
+Keep interpretations and recommendations clearly separate from source-supported facts.
+
+---
+
+## 3. VERIFY
+
+Before presenting information:
+
+**Extract → Cross-check → Calculate → Validate**
+
+Check numbers, percentages, dates, units, terminology, calculations, and internal consistency.
+
+Never fabricate information or silently change source data.
+
+Do not claim causation unless the evidence supports it.
+
+Do not introduce targets, forecasts, or business goals as facts. Label them **Proposed Target** or **Recommendation**.
+
+If information cannot be verified, mark it **Needs Verification** and explain what must be checked.
+
+---
+
+## 4. BUILD THE STORY
+
+Create a logical storyline based on the objective and audience.
+
+Use the structure that best communicates the findings, such as:
+
+**Context → Performance → Key Findings → Problems/Opportunities → Recommendations → Next Steps**
+
+Do not force this sequence when another structure is more appropriate.
+
+Each slide must communicate **one primary message**.
+
+Use conclusion-based titles where possible.
+
+Avoid repetition and unnecessary content.
+
+---
+
+## 5. DESIGN THE SLIDES
+
+Create concise, professional slides using the most appropriate format:
+
+- KPI cards for headline metrics
+- Bar charts for comparisons
+- Line charts for trends
+- Tables for exact values
+- Timelines for chronological information
+- Flowcharts/diagrams for processes
+- Comparison layouts for before/after analysis
+
+Use visuals only when they improve understanding.
+
+Maintain:
+
+- Clear hierarchy
+- Consistent typography
+- Professional colour palette
+- Balanced spacing
+- Strong alignment
+- Consistent icons and chart styles
+
+Use a modern presentation aesthetic with **subtle gradients, professional backgrounds, layered cards, soft shadows, and restrained 3D/depth effects** where appropriate.
+
+Do not use excessive colours, decoration, 3D effects, or elements that reduce readability.
+
+---
+
+## 6. SPEAKER NOTES
+
+For every slide, provide concise speaker notes containing:
+
+- Main message
+- Important evidence or context
+- Additional explanation
+- Likely audience questions when useful
+
+Do not simply repeat the slide content.
+
+---
+
+## 7. RECOMMENDATIONS
+
+Base recommendations on identified evidence, problems, or opportunities.
+
+For each major recommendation, state:
+
+**Issue/Opportunity → Evidence → Action → Expected Purpose**
+
+Do not present invented decisions as management-approved decisions.
+
+---
+
+## 8. FINAL REVIEW
+
+Before delivering the presentation, perform one structured quality review.
+
+Check:
+
+- Accuracy and calculations
+- Source consistency
+- Evidence behind conclusions
+- Clarity and conciseness
+- Logical flow
+- Audience relevance
+- Visual accuracy and readability
+- Professional language and design
+- Speaker-note quality
+
+Remove unsupported claims and unnecessary content.
+
+---
+
+## 9. OUTPUT
+
+Provide:
+
+### Presentation
+For each slide:
+- Slide number
+- Title
+- Slide content
+- Visual
+- Speaker notes
+
+### Quality Summary
+- Corrections made
+- Important assumptions
+- Needs Verification items
+- Recommendations
+- Final takeaways
+
+### Status
+
+State:
+
+**Meeting Ready**  
+or  
+**Needs Further Verification**
+
+---
+
+## FINAL PRINCIPLE
+
+Prioritise:
+
+**Accuracy → Evidence → Clarity → Conciseness → Visual Quality**
+
+Do not make the presentation longer merely to make it look comprehensive.
+
+The goal is a presentation that is **professional, visually polished, evidence-based, and meeting-ready without unnecessary complexity.**
