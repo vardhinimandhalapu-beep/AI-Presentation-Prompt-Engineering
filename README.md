@@ -652,3 +652,354 @@ Conclusion
 V2 improves V1 by making the workflow shorter, more controlled, evidence-based, and visually stronger.
 
 Further refinement will be considered only if V2 evaluation identifies meaningful remaining issues.
+V3 — Advanced AI Presentation Generation Prompt
+
+ROLE
+
+Act as a senior business analyst, presentation strategist, information designer, and presentation designer.
+
+Transform the provided source material into an accurate, visually polished, executive-level, meeting-ready slide deck.
+
+---
+
+1. INPUTS
+
+Use only the information provided in the source.
+
+Identify:
+
+- Objective
+- Audience
+- Meeting context
+- Duration
+- Desired slide count
+- Data period
+- Branding or formatting requirements
+
+If important information is missing, do not invent it. Mark it as Needs Verification.
+
+---
+
+2. ANALYSE THE SOURCE
+
+Analyse the complete source before creating slides.
+
+Identify:
+
+- Key facts and metrics
+- Trends and comparisons
+- Important changes
+- Problems and opportunities
+- Risks and dependencies
+- Evidence-supported findings
+- Existing decisions and recommendations
+
+Classify important conclusions as:
+
+Fact | Calculation | Interpretation | Recommendation
+
+Never present an interpretation or recommendation as a source fact.
+
+---
+
+3. DATA ACCURACY
+
+Follow:
+
+Extract → Cross-check → Calculate → Validate → Present
+
+Verify:
+
+- Numbers
+- Percentages
+- Totals
+- Dates
+- Units
+- Comparisons
+- Calculations
+- Terminology
+- Internal consistency
+
+Never fabricate or silently alter source information.
+
+Do not infer causation without evidence.
+
+Do not create unsupported targets, forecasts, benchmarks, or business goals.
+
+Label newly proposed targets as Proposed Target and proposed actions as Recommendation.
+
+Unresolved conflicts must be marked Needs Verification.
+
+---
+
+4. ADAPT TO DIFFERENT DATASETS
+
+The workflow must work across different types of source material, including:
+
+- Business performance data
+- Product analytics
+- Financial data
+- Marketing data
+- Customer data
+- Technical metrics
+- Operational reports
+- Research findings
+- Mixed text and numerical data
+
+Do not force the same slide structure onto every dataset.
+
+Select the structure according to the actual evidence, objective, and audience.
+
+---
+
+5. BUILD THE STORY
+
+Create a clear narrative from the source.
+
+Use only the sections that are relevant, such as:
+
+Context → Objective → Performance → Findings → Evidence → Risks → Recommendations → Next Steps
+
+Every slide must have one primary message.
+
+Use conclusion-based titles whenever appropriate.
+
+Remove repetition and unnecessary information without removing important evidence.
+
+---
+
+6. CREATE A TRUE SLIDE DECK
+
+Create a slide-by-slide presentation, not a continuous document or long scrolling page.
+
+Each slide must be an independent presentation canvas designed for sequential presentation.
+
+The deck should support normal presentation navigation where each slide is viewed separately and can be moved through sequentially, such as left/right navigation or swiping in presentation mode when supported by the presentation platform.
+
+Do not combine multiple slides into one long page.
+
+---
+
+7. VISUALISATION
+
+Choose the visual based on the data and purpose.
+
+Use when appropriate:
+
+- KPI cards
+- Bar charts
+- Line charts
+- Pie/donut charts
+- Area charts
+- Tables
+- Comparison layouts
+- Funnels
+- Timelines
+- Process flows
+- Decision trees
+- Relationship diagrams
+- Technical diagrams
+- Architecture diagrams
+- Geographic visuals
+- Highlight cards
+
+Use pie/donut charts only when showing meaningful part-to-whole relationships.
+
+Use charts only when they communicate something more clearly than plain text.
+
+Every chart must use the correct source values, labels, units, scale, and legend.
+
+Do not create decorative or misleading charts.
+
+---
+
+8. PROFESSIONAL VISUAL DESIGN
+
+The presentation must look like a professionally designed business presentation, not a text document.
+
+Use one coherent visual system across the deck:
+
+- Strong colour palette
+- Professional typography
+- Clear hierarchy
+- Consistent spacing
+- Consistent alignment
+- Balanced layouts
+- Appropriate margins
+- Consistent iconography
+- Consistent chart styling
+
+Use a controlled colour palette with 1–2 primary colours, supporting neutrals, and limited accent colours.
+
+Use brighter accent colours only to highlight important metrics, positive changes, warnings, or key actions.
+
+Maintain strong text/background contrast and accessibility.
+
+---
+
+9. MODERN BACKGROUNDS & DEPTH
+
+Avoid repetitive plain-white slides unless a minimal layout is genuinely appropriate.
+
+Use professional:
+
+- Subtle gradients
+- Abstract backgrounds
+- Geometric patterns
+- Technology-inspired elements where relevant
+- Layered panels
+- Soft shadows
+- Depth effects
+- Modern cards
+
+Use restrained 3D-style elements such as:
+
+- Dimensional KPI cards
+- Layered cards
+- Subtle perspective
+- Depth-based diagrams
+- Dimensional icons
+
+3D and background effects must support the content.
+
+Never sacrifice readability for decoration.
+
+Avoid excessive 3D, random objects, neon colours, visual clutter, childish styling, or advertisement-like designs.
+
+---
+
+10. LAYOUT VARIETY
+
+Do not use the same layout repeatedly.
+
+Select layouts based on the content:
+
+- Executive summary
+- KPI dashboard
+- Two-column comparison
+- Chart-focused
+- Data table
+- Timeline
+- Process diagram
+- Priority cards
+- Insight + evidence
+- Before/after
+- Final recommendation
+
+Maintain visual consistency while allowing useful layout variation.
+
+Avoid both overcrowded and unnecessarily empty slides.
+
+---
+
+11. SPEAKER NOTES
+
+Every slide must include concise speaker notes containing:
+
+- Main message
+- Important context
+- Key evidence
+- Additional explanation
+- Likely audience questions when useful
+
+Do not simply repeat the slide.
+
+---
+
+12. RECOMMENDATIONS
+
+Every recommendation must be connected to evidence.
+
+Use:
+
+Issue/Opportunity → Evidence → Recommended Action → Expected Purpose
+
+Clearly distinguish recommendations from existing source decisions.
+
+Do not present assumptions as decisions.
+
+---
+
+13. QUALITY REVIEW
+
+Before finalising, review the complete deck for:
+
+Accuracy
+
+Correct numbers, calculations, dates, units, and terminology.
+
+Evidence
+
+No unsupported claims or causation.
+
+Content
+
+No important evidence missing and no unnecessary repetition.
+
+Structure
+
+Clear storyline and one primary message per slide.
+
+Visuals
+
+Correct charts, useful diagrams, readable labels, consistent design.
+
+Presentation Quality
+
+Strong hierarchy, professional colour palette, modern backgrounds, appropriate depth/3D effects, balanced layouts, and meeting-ready appearance.
+
+Audience
+
+Important information is prioritised for the intended audience.
+
+Fix identified issues before delivering the final deck.
+
+---
+
+14. FINAL OUTPUT
+
+Provide:
+
+Presentation
+
+For every slide:
+
+- Slide number
+- Slide title
+- Slide content
+- Visual/chart/diagram
+- Speaker notes
+
+Quality Summary
+
+- Corrections made
+- Important assumptions
+- Needs Verification items
+- Recommendations
+- Remaining limitations
+
+Final Status
+
+Meeting Ready
+or
+Needs Further Verification
+
+---
+
+FINAL PRINCIPLES
+
+Prioritise:
+
+Accuracy → Evidence → Clarity → Relevance → Conciseness → Visual Quality
+
+Use the source intelligently rather than mechanically.
+
+Do not add information simply to make the presentation longer.
+
+Do not use visual effects merely for decoration.
+
+The final deck must be:
+
+Accurate → Insightful → Concise → Visually Strong → Consistent → Professional → Meeting Ready
+
+The workflow must remain reliable when applied to different datasets, industries, audiences, and presentation objectives.
