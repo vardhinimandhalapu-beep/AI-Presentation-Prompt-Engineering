@@ -156,3 +156,4 @@ Prioritize accuracy → insight → clarity → visual quality. Remove redundant
 End with clear, evidence-based takeaways and actionable recommendations where appropriate.
 
 Output: Generate the final ".pptx" directly and provide an openable/downloadable PowerPoint link.
+https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/username/repository/main/NovaFlow_Q2_Product_Performance_Review.pptx
