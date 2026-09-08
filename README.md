@@ -124,3 +124,40 @@ AI-Presentation-Prompt-Engineering/
 ---
 
 **Created:** September 2026
+V1 to V2 — Prompt Analysis
+
+Why V2 Was Created
+
+V1 successfully covered the main presentation requirements, but testing revealed several areas that could be improved.
+
+Problems Identified in V1
+
+- The prompt was too long and contained repeated instructions.
+- Facts, calculations, interpretations, and recommendations were not separated clearly enough.
+- Some generated targets and causal statements were not directly supported by the source.
+- Visual design instructions were too general, which resulted in plain-looking slides.
+- Verification and review instructions were spread across multiple sections.
+- Audience and meeting context could have been defined more clearly.
+
+How V2 Addresses Them
+
+V2 was redesigned rather than simply expanded.
+
+- Repeated instructions were merged into shorter, clearer rules.
+- Information is classified as Fact, Calculation, Interpretation, or Recommendation.
+- Unsupported targets are labelled Proposed Target or Recommendation.
+- Unsupported causal claims are explicitly restricted.
+- Verification follows a simple Extract → Cross-check → Calculate → Validate process.
+- Visual instructions now include professional backgrounds, consistent design, and subtle 3D/depth effects.
+- Audience, objective, meeting context, and slide requirements are defined as inputs.
+- Multiple review stages were condensed into one structured quality review.
+
+Key Change
+
+V1: Detailed but lengthy and repetitive.
+
+V2: Shorter, structured, precise, and controlled.
+
+The goal of V2 is not to add more instructions, but to make the existing instructions more effective.
+
+«Key Learning: A longer prompt does not automatically produce a better result. Clear structure, constraints, verification, and purposeful instructions matter more.»
