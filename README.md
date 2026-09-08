@@ -143,3 +143,16 @@ V3: Strongest — 9/10
 Key upgrades: Better storytelling, visual hierarchy, data interpretation, consistency and actionable recommendations.
 
 Next: Improve visual polish, source documentation, analytical depth and prompt consistency.
+Create a polished, executive-ready PowerPoint from the provided data.
+
+Analyze first, then design. Build a clear narrative, logical slide flow, strong hierarchy, concise content, and decision-relevant insights. Never invent data, sources, causes, or conclusions; clearly distinguish facts, insights, assumptions, and recommendations.
+
+Choose the best visual format for each slide—charts, graphs, tables, diagrams, timelines, process flows, comparisons, KPI cards, icons, or relevant images—only when they improve understanding. Avoid unnecessary visuals, repetition, clutter, and decorative elements.
+
+Use professional, context-appropriate backgrounds, typography, spacing, alignment, visual hierarchy, and consistent styling. Make every slide visually purposeful, balanced, readable, and presentation-ready. Adapt the design automatically to the data type, industry, audience, and story rather than using a fixed template.
+
+Prioritize accuracy → insight → clarity → visual quality. Remove redundant information and keep text concise.
+
+End with clear, evidence-based takeaways and actionable recommendations where appropriate.
+
+Output: Generate the final ".pptx" directly and provide an openable/downloadable PowerPoint link.
