@@ -353,3 +353,265 @@ Prioritise:
 Do not make the presentation longer merely to make it look comprehensive.
 
 The goal is a presentation that is **professional, visually polished, evidence-based, and meeting-ready without unnecessary complexity.**
+NovaFlow Technologies
+
+Q2 Product Performance Review
+
+April–June 2026
+
+Audience: Product, Engineering, Sales & Marketing Leadership
+
+---
+
+Slide 1 — Q2 Growth Was Strong, but Customer Experience Weakened
+
+Key Performance
+
+101,600
+Registered Users
++23.3%
+
+62,900
+Monthly Active Users
++22.6%
+
+8,120
+Paid Customers
++18.5%
+
+₹2.21 Cr
+Quarterly Revenue
++20.1%
+
+Key Message
+
+NovaFlow achieved strong growth in Q2, while customer experience and support indicators moved in the opposite direction.
+
+Visual: Four modern KPI cards with subtle depth and a clean professional background.
+
+Speaker Notes: Open with the overall Q2 picture: strong business growth accompanied by emerging customer-experience concerns.
+
+---
+
+Slide 2 — Customer Growth Remained Strong Across Both Segments
+
+Metric| Q1| Q2
+New Customers| 1,740| 2,130
+Enterprise Customers| 420| 510
+SMB Customers| 6,430| 7,610
+Paid Customers| 6,850| 8,120
+
+Key Message
+
+New customer additions increased, with both Enterprise and SMB customer bases expanding during Q2.
+
+Visual: Q1 vs Q2 comparison bars with key growth figures highlighted.
+
+Speaker Notes: Customer growth was broad-based across both reported segments. The data does not identify which factor primarily drove the increase.
+
+---
+
+Slide 3 — Revenue Increased While Average Subscription Value Declined
+
+Quarterly Revenue
+
+₹1.84 Cr → ₹2.21 Cr
++20.1%
+
+Average Monthly Subscription
+
+₹2,980 → ₹2,860
+−4.0%
+
+Key Message
+
+Revenue increased during Q2 even as the average monthly subscription value declined.
+
+Visual: Two large comparison cards with a simple upward revenue indicator and downward subscription-value indicator.
+
+Speaker Notes: The data confirms both changes, but does not establish the reason for the decline in average subscription value.
+
+---
+
+Slide 4 — AI Assistant Adoption Increased Significantly
+
+Feature Adoption
+
+Task Management — 78%
+Team Chat — 64%
+File Sharing — 51%
+AI Assistant — 38%
+Time Tracking — 31%
+
+AI Assistant Adoption
+
+24% → 38%
+
++14 percentage points
+
+Key Message
+
+AI Assistant adoption increased substantially in Q2, while Task Management remained the most-used feature.
+
+Visual: Horizontal feature-adoption chart with AI Assistant visually highlighted.
+
+Speaker Notes: AI Assistant adoption increased by 14 percentage points from Q1 to Q2. Other feature adoption figures represent the reported Q2 usage levels.
+
+---
+
+Slide 5 — Customer Experience Became the Main Warning Signal
+
+Retention
+
+91.1% → 89.4%
+
+Satisfaction
+
+4.2 → 4.0 / 5
+
+Cancellations
+
+610 → 860
+
+Support Tickets
+
+3,240 → 4,180
+
+Resolution Time
+
+7.2h → 10.6h
+
+Key Message
+
+Retention and satisfaction declined while cancellations, support volume, and resolution time increased.
+
+Visual: Executive risk dashboard using KPI cards and Q1–Q2 comparison indicators.
+
+Speaker Notes: This is the clearest area requiring attention. The figures show deterioration across multiple customer-experience measures.
+
+---
+
+Slide 6 — Mobile Usage Grew Rapidly as Crash Rate Increased
+
+Mobile Users
+
+21,500 → 31,800
++47.9%
+
+Mobile Crash Rate
+
+1.4% → 2.7%
++92.9%
+
+Reported Top Complaint
+
+Mobile performance
+
+Needs Verification
+
+The data shows that mobile usage and crash rate both increased, but it does not establish that increased usage caused the higher crash rate.
+
+Visual: Split comparison showing mobile growth alongside the stability issue.
+
+Speaker Notes: Mobile became a larger part of product usage while the reported crash rate also increased. Engineering investigation is required to understand the relationship.
+
+---
+
+Slide 7 — Marketing Reach Increased, but Conversion Declined
+
+Website Visitors
+
+4.8L → 6.9L
++43.8%
+
+Marketing Spend
+
+₹32L → ₹47L
++46.9%
+
+Free-to-Paid Conversion
+
+8.3% → 7.6%
+−0.7 percentage points
+
+Key Message
+
+Marketing reach and investment increased, while free-to-paid conversion declined.
+
+Visual: Three KPI cards connected through a simple acquisition-to-conversion flow.
+
+Speaker Notes: The data supports the observed changes but does not establish why conversion declined or whether the increase in marketing spend caused the revenue growth.
+
+---
+
+Slide 8 — Q2 Releases Expanded Product Capability
+
+Major Q2 Releases
+
+🤖 AI Assistant
+📱 Mobile Redesign
+📊 Advanced Reporting Dashboard
+🔗 Slack Integration
+
+Areas Requiring Attention
+
+Mobile Stability
+Support Responsiveness
+Customer Retention
+Advanced Settings Usability
+
+Visual: Product-release timeline leading into a Q3 focus area panel.
+
+Speaker Notes: Q2 introduced several major capabilities. The reported customer and product data points to specific areas that should receive attention next.
+
+---
+
+Slide 9 — Four Evidence-Based Priorities for Q3
+
+01 — Stabilise Mobile
+
+Investigate the increase in crash rate and reported mobile-performance complaints.
+
+02 — Improve Support
+
+Address rising ticket volume and longer resolution times.
+
+03 — Protect Retention
+
+Investigate increased cancellations and declining satisfaction.
+
+04 — Improve Conversion
+
+Analyse the decline in free-to-paid conversion.
+
+Visual: Four structured priority cards with subtle depth and consistent iconography.
+
+Speaker Notes: These are recommendations based on the reported Q2 data. They are not presented as management-approved decisions.
+
+---
+
+Slide 10 — Sustain Growth Without Losing Customer Experience
+
+What Worked
+
+✓ User growth
+✓ Customer growth
+✓ Revenue growth
+✓ AI Assistant adoption
+✓ Enterprise and SMB expansion
+
+What Needs Attention
+
+⚠ Retention declined
+⚠ Cancellations increased
+⚠ Support performance weakened
+⚠ Mobile crash rate increased
+⚠ Free-to-paid conversion declined
+
+Final Takeaway
+
+Q2 delivered strong growth, but the next priority is to strengthen retention, reliability, and customer experience while sustaining that growth.
+
+Visual: Executive summary layout with two balanced sections and a prominent final takeaway.
+
+Speaker Notes: Close by connecting the positive growth results with the main risks. The key focus is sustainable growth supported by stronger customer experience and product reliability.
