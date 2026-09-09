@@ -428,4 +428,70 @@ AI Presentation Prompt Engineering
 
 A high-reliability prompt framework that transforms raw data into accurate, structured, professional PowerPoint presentations with built-in validation and QA.
 
-Raw Data → Analyze → Validate → Design → Verify → PPTX
+Raw Data → Analyze → Validate → Design → Verify → PPTXExperiment & Validation — Next Phase
+
+After completing the V1–V7 prompt iterations, I moved from prompt refinement to a more structured experimental approach.
+
+Experimental Methodology
+
+The same raw dataset was intentionally used across all prompt versions to maintain a controlled comparison.
+
+Workflow:
+
+Raw Data
+→ Prompt Version
+→ AI-Generated Output
+→ Output Analysis
+→ Failure Identification
+→ Targeted Prompt Modification
+→ Next Version
+→ Comparative Evaluation
+
+What I Evaluate
+
+Each version is reviewed across multiple dimensions:
+
+- Data integrity
+- Unsupported claims / hallucination
+- Calculation accuracy
+- Chart and visual appropriateness
+- Narrative structure
+- Readability
+- Decision relevance
+- Overall presentation quality
+
+Failure Analysis
+
+Instead of only asking whether a new version “looks better,” I identify specific failure patterns and use them to determine what should change in the next prompt version.
+
+Examples of failure categories include:
+
+Data Error | Unsupported Claim | Calculation Error | Chart Mismatch | Poor Narrative Flow | Redundancy | Readability Issue | Visual Inconsistency
+
+Controlled Comparison
+
+Because the input dataset remains constant, changes in the generated output can be examined against changes made to the prompt framework.
+
+This makes the V1–V7 progression a traceable experimentation process rather than a collection of unrelated prompts.
+
+Evaluation
+
+A structured evaluation rubric is used to assess the generated presentations across the defined quality dimensions.
+
+Scores are based on the actual observed outputs and are not artificially assigned.
+
+Reproducibility
+
+The experiment is designed so that the same raw dataset, prompt versions, evaluation criteria, and outputs can be reviewed or reproduced by another person.
+
+Limitations
+
+This project uses a controlled/synthetic dataset and does not claim production-level performance. Results may vary depending on the AI model, presentation-generation tool, dataset, and use case.
+
+Current Position
+
+This project demonstrates an expert-level experimental approach to prompt engineering through:
+
+Controlled Iteration → Failure Analysis → Targeted Refinement → Structured Evaluation → Validation → Reproducibility
+
+The goal is not simply to create a longer prompt, but to systematically engineer and evaluate a more reliable prompting workflow.
