@@ -371,4 +371,38 @@ PRIORITY:
 Accuracy → Evidence → Decision relevance → Insight → Clarity → Visual quality → Actionability
 
 OUTPUT:
-Generate the actual editable .pptx PowerPoint file. It must be openable in Microsoft PowerPoint, presentation-ready for a real workplace meeting, and provided as a direct clickable/downloadable file. Do not provide only text, images, or PDF.
+ click on this link presentation-ready for a real workplace meeting, and provided as a direct clickable/downloadable file. Do not provide only text, images, or PDF.
+https://ap.wps.com/cms/docs/d/cbCaesJCC8egXPLs?sa=601.1074
+V4 → V5 Upgrade & Usability Report
+
+V4 → V5: V5 upgrades the workflow from an adaptive, evidence-based presentation prompt into a more workplace-ready and decision-oriented presentation system.
+
+Key Upgrades
+
+• Stronger data validation and integrity checks
+• Clearer separation of facts, insights, assumptions, limitations and recommendations
+• More decision-focused storytelling and slide takeaways
+• Better data-to-visual selection
+• Stronger workplace design and readability standards
+• Explicit calculation and chart accuracy checks
+• Stronger final QA before output
+• Explicit requirement for an editable, downloadable ".pptx"
+
+Analysis
+
+V4: Focused on analysis → narrative → adaptive visuals → professional design → evidence-based recommendations.
+
+V5: Retains all V4 strengths and adds decision relevance, workplace usability, stronger QA, data integrity controls, and output requirements.
+
+Expected Accuracy & Usability
+
+The prompt itself cannot guarantee a fixed accuracy percentage. Based on its controls, a reasonable target is approximately 90–95%+ reliable for well-structured business datasets, provided the AI platform supports proper PowerPoint generation.
+
+Usability level: High — suitable for professional/business presentations, executive reviews, project demonstrations, portfolio work, and meeting-ready first drafts.
+
+Human review: Still recommended for final numbers, business decisions, sources, and presentation context.
+
+Final Position
+
+V4 = Adaptive + Evidence-based
+V5 = Adaptive + Evidence-based + Decision-oriented + Workplace-ready + QA-controlled
