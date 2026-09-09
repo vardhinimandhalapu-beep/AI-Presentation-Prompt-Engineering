@@ -406,3 +406,18 @@ Final Position
 
 V4 = Adaptive + Evidence-based
 V5 = Adaptive + Evidence-based + Decision-oriented + Workplace-ready + QA-controlled
+Create a professional, workplace-ready PowerPoint from the provided data.
+
+ANALYZE → VALIDATE → STRUCTURE → DESIGN → VERIFY → EXPORT
+
+Use only provided/verified information. Never invent, alter, assume, or overstate data, sources, causes, calculations, or conclusions; flag missing or uncertain information.
+
+Build the story before designing slides. Give each slide one clear purpose and decision-relevant takeaway. Clearly separate facts, insights, limitations, and recommendations.
+
+Automatically choose the most accurate visual for each purpose. Preserve every number, unit, date, percentage, label, scale, and calculation exactly; ensure charts/tables/KPIs faithfully represent the source data.
+
+Use a clean, consistent, accessible professional design with strong hierarchy, spacing, alignment, readability, and minimal clutter. Optimize all slides for HD display, projection, and high-quality printing.
+
+Before export, perform a full end-to-end QA check for data, calculations, charts, claims, consistency, readability, layout, and visual quality. Fix errors when certain; never guess.
+
+OUTPUT: Generate the actual editable, openable, high-quality ".pptx" file, suitable for real professional use and printing.
