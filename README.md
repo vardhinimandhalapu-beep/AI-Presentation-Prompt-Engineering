@@ -421,3 +421,6 @@ Use a clean, consistent, accessible professional design with strong hierarchy, s
 Before export, perform a full end-to-end QA check for data, calculations, charts, claims, consistency, readability, layout, and visual quality. Fix errors when certain; never guess.
 
 OUTPUT: Generate the actual editable, openable, high-quality ".pptx" file, suitable for real professional use and printing.
+### 📊 NovaFlow Q2 High-Reliability Output
+
+[View Presentation](https://ap.wps.com/cms/docs/d/cbCaet6VrAabjtaP?sa=601.1074)
