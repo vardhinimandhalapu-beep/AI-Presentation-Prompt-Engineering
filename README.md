@@ -353,3 +353,22 @@ Status
 Project Completed — V1 to V4 iterative prompt-engineering workflow documented.
 
 «NovaFlow and its dataset are fictional and created for experimentation.»
+Create a polished, executive-ready, workplace-usable PowerPoint from the provided data.
+
+Analyze first, validate the data, then design. Identify missing, inconsistent, ambiguous, or unsupported information. Never invent data, sources, causes, assumptions, or conclusions.
+
+Build the narrative before slides. Give every slide one clear purpose and takeaway. Prioritize decision-relevant insights and concise professional communication. Clearly distinguish facts, insights, assumptions, limitations, and recommendations.
+
+Choose the best visual for each purpose—charts, graphs, tables, KPI cards, comparisons, diagrams, timelines, processes, or relevant images. Match visuals to the data and use them only when they improve understanding.
+
+Adapt slide count, structure, layout, typography, backgrounds, spacing, hierarchy, and styling to the data, industry, audience, and story. Keep the entire deck consistent, readable, balanced, professional, and free from clutter, repetition, and unnecessary text.
+
+Preserve all numbers, units, dates, percentages, labels, and calculations accurately. Never present correlation or inference as causation. Clearly show sources and limitations. Recommendations must be evidence-based.
+
+Before finalizing, perform QA for data/calculation accuracy, chart accuracy, unsupported claims, consistency, repetition, readability, visual balance, narrative flow, and workplace usefulness. Fix all identified issues.
+
+PRIORITY:
+Accuracy → Evidence → Decision relevance → Insight → Clarity → Visual quality → Actionability
+
+OUTPUT:
+Generate the actual editable .pptx PowerPoint file. It must be openable in Microsoft PowerPoint, presentation-ready for a real workplace meeting, and provided as a direct clickable/downloadable file. Do not provide only text, images, or PDF.
