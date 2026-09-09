@@ -424,3 +424,8 @@ OUTPUT: Generate the actual editable, openable, high-quality ".pptx" file, suita
 ### 📊 NovaFlow Q2 High-Reliability Output
 
 [View Presentation](https://ap.wps.com/cms/docs/d/cbCaet6VrAabjtaP?sa=601.1074)
+AI Presentation Prompt Engineering
+
+A high-reliability prompt framework that transforms raw data into accurate, structured, professional PowerPoint presentations with built-in validation and QA.
+
+Raw Data → Analyze → Validate → Design → Verify → PPTX
