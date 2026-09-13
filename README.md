@@ -384,8 +384,470 @@ Key Upgrades
 • More decision-focused storytelling and slide takeaways
 • Better data-to-visual selection
 • Stronger workplace design and readability standards
-• Explicit calculation and chart accuracy checks
-• Stronger final QA before output
+NOVAFLOW — COMPLETE GITHUB AUTOMATION PACKAGE
+
+Create these files inside your repository.
+
+---
+
+1. dataset/novaflow_q2_2026.csv
+
+metric,q1,q2,unit
+users,82400,101600,users
+revenue,1.84,2.21,crore_inr
+retention,91.1,89.4,percent
+support_time,7.2,10.6,hours
+crash_rate,1.4,2.7,percent
+ai_assistant_adoption,24,38,percent
+
+---
+
+2. python/data_validator.py
+
+import csv
+from pathlib import Path
+
+DATASET = Path("dataset/novaflow_q2_2026.csv")
+
+REQUIRED_FIELDS = {"metric", "q1", "q2", "unit"}
+
+
+def load_dataset():
+    if not DATASET.exists():
+        raise FileNotFoundError(f"Dataset not found: {DATASET}")
+
+    with DATASET.open("r", encoding="utf-8") as file:
+        return list(csv.DictReader(file))
+
+
+def validate_dataset(rows):
+    errors = []
+
+    if not rows:
+        errors.append("Dataset is empty.")
+        return errors
+
+    for row_number, row in enumerate(rows, start=2):
+        missing = REQUIRED_FIELDS - set(row.keys())
+
+        if missing:
+            errors.append(
+                f"Row {row_number}: missing fields {sorted(missing)}"
+            )
+
+        if not row.get("metric", "").strip():
+            errors.append(f"Row {row_number}: metric is empty.")
+
+        if not row.get("unit", "").strip():
+            errors.append(f"Row {row_number}: unit is empty.")
+
+    return errors
+
+
+def main():
+    print("NovaFlow Dataset Validation")
+    print("=" * 32)
+
+    try:
+        rows = load_dataset()
+        errors = validate_dataset(rows)
+    except Exception as error:
+        print("FAILED")
+        print(f"- {error}")
+        return
+
+    if errors:
+        print("FAILED")
+        for error in errors:
+            print(f"- {error}")
+    else:
+        print("PASSED")
+        print(f"Rows checked: {len(rows)}")
+        print("Required fields are present.")
+
+
+if __name__ == "__main__":
+    main()
+
+---
+
+3. python/calculation_checker.py
+
+import csv
+from pathlib import Path
+
+DATASET = Path("dataset/novaflow_q2_2026.csv")
+
+
+def percentage_change(old, new):
+    if old == 0:
+        return None
+
+    return ((new - old) / old) * 100
+
+
+def main():
+    print("NovaFlow Calculation Checker")
+    print("=" * 32)
+
+    if not DATASET.exists():
+        print(f"Dataset not found: {DATASET}")
+        return
+
+    with DATASET.open("r", encoding="utf-8") as file:
+        rows = list(csv.DictReader(file))
+
+    for row in rows:
+        try:
+            q1 = float(row["q1"])
+            q2 = float(row["q2"])
+        except (ValueError, TypeError, KeyError):
+            print(f"Skipped invalid numeric data: {row.get('metric')}")
+            continue
+
+        absolute_change = q2 - q1
+        percentage = percentage_change(q1, q2)
+
+        print(f"\nMetric: {row['metric']}")
+        print(f"Q1: {q1}")
+        print(f"Q2: {q2}")
+        print(f"Absolute change: {absolute_change:.2f}")
+
+        if percentage is not None:
+            print(f"Percentage change: {percentage:.2f}%")
+
+
+if __name__ == "__main__":
+    main()
+
+---
+
+4. python/evaluation_scorer.py
+
+import csv
+from pathlib import Path
+
+SCORES_FILE = Path("evaluations/version_scores.csv")
+
+CRITERIA = {
+    "data_accuracy": 20,
+    "calculation_accuracy": 15,
+    "evidence_consistency": 15,
+    "completeness": 10,
+    "relevance": 10,
+    "narrative_structure": 10,
+    "visual_usefulness": 5,
+    "professional_clarity": 5,
+    "speaker_notes": 5,
+    "meeting_readiness": 5,
+}
+
+
+def calculate_score(row):
+    score = 0
+
+    for criterion, weight in CRITERIA.items():
+        try:
+            rating = float(row.get(criterion, 0))
+        except (ValueError, TypeError):
+            rating = 0
+
+        rating = max(0, min(100, rating))
+        score += (rating / 100) * weight
+
+    return round(score, 2)
+
+
+def main():
+    print("NovaFlow Evaluation Scorer")
+    print("=" * 32)
+
+    if not SCORES_FILE.exists():
+        print(f"Scores file not found: {SCORES_FILE}")
+        return
+
+    with SCORES_FILE.open("r", encoding="utf-8") as file:
+        rows = list(csv.DictReader(file))
+
+    if not rows:
+        print("No evaluation scores available yet.")
+        return
+
+    for row in rows:
+        version = row.get("version", "Unknown")
+        score = calculate_score(row)
+        print(f"{version}: {score}/100")
+
+
+if __name__ == "__main__":
+    main()
+
+---
+
+5. evaluations/evaluation_rubric.md
+
+# NovaFlow Evaluation Rubric
+
+Each prompt version can be evaluated using the same weighted criteria.
+
+| Criterion | Weight |
+|---|---:|
+| Data accuracy | 20% |
+| Calculation accuracy | 15% |
+| Evidence consistency | 15% |
+| Completeness | 10% |
+| Relevance | 10% |
+| Narrative structure | 10% |
+| Visual usefulness | 5% |
+| Professional clarity | 5% |
+| Speaker-note quality | 5% |
+| Meeting readiness | 5% |
+
+Total: 100%
+
+Each criterion is rated from 0–100.
+
+The weighted score is calculated automatically by
+`python/evaluation_scorer.py`.
+
+The resulting score represents performance under the project's
+defined dataset, evaluation criteria, and test conditions.
+
+It is not a universal measurement of AI accuracy or reliability.
+
+---
+
+6. evaluations/version_scores.csv
+
+version,data_accuracy,calculation_accuracy,evidence_consistency,completeness,relevance,narrative_structure,visual_usefulness,professional_clarity,speaker_notes,meeting_readiness
+
+Do not add invented V1–V7 scores here.
+
+Add a version only after it has actually been evaluated.
+
+Example format:
+
+V7,95,90,92,94,90,91,88,93,90,92
+
+Only use numbers that come from your actual evaluation.
+
+---
+
+7. evaluations/failure_analysis.md
+
+# NovaFlow Failure Analysis
+
+Failure analysis is used to identify observable problems in AI-generated
+outputs and guide prompt refinement.
+
+## Failure Categories
+
+- Numerical errors
+- Calculation errors
+- Missing source information
+- Unsupported claims
+- Fact vs. interpretation confusion
+- Redundant content
+- Poor visual selection
+- Inconsistent terminology
+- Unclear business implications
+
+## Recording Format
+
+| Version | Failure Type | Description | Impact | Corrective Action |
+|---|---|---|---|---|
+| V1 | — | No formal case recorded | — | — |
+
+Only verified observations should be added to this table.
+
+The purpose of this file is to document actual output failures rather
+than create assumptions about model behavior.
+
+---
+
+8. python/README.md
+
+# NovaFlow Python Validation
+
+The Python layer provides lightweight deterministic checks for the
+NovaFlow prompt-engineering workflow.
+
+## Tools
+
+### data_validator.py
+
+Checks the structure of the NovaFlow source dataset.
+
+Run:
+
+```bash
+python python/data_validator.py
+
+calculation_checker.py
+
+Calculates Q1 → Q2 changes from the source dataset.
+
+Run:
+
+python python/calculation_checker.py
+
+evaluation_scorer.py
+
+Reads evaluation ratings from "evaluations/version_scores.csv"
+and calculates weighted scores.
+
+Run:
+
+python python/evaluation_scorer.py
+
+Purpose
+
+These scripts do not replace human evaluation.
+
+They provide deterministic checks for information that can be
+validated programmatically, while qualitative evaluation remains
+part of the overall workflow.
+
+
+---
+
+# 9. requirements.txt
+
+```text
+# NovaFlow currently uses Python standard-library modules only.
+
+---
+
+10. README.md — ADD THIS SECTION AT THE END
+
+---
+
+## Technical Validation & Automation
+
+The project was extended beyond prompt iteration into a reproducible
+evaluation workflow.
+
+The goal is not only to improve the prompt, but to verify whether
+AI-generated output preserves source data, calculations, evidence,
+structure, and decision-relevant information.
+
+### Validation Workflow
+
+Source Dataset
+      ↓
+Prompt Version
+      ↓
+AI-Generated Output
+      ↓
+Automated Validation
+      ↓
+Evaluation Rubric
+      ↓
+Failure Analysis
+      ↓
+Prompt Refinement
+      ↓
+Final Output
+
+### Python Validation Layer
+
+Python is used as a supporting validation layer for checks that can
+be performed deterministically.
+
+- Data structure validation
+- Calculation checking
+- Percentage-change calculation
+- Weighted evaluation scoring
+
+### Prompt Version Testing
+
+V1 → Baseline
+V2 → Structural refinement
+V3 → Evidence and narrative improvement
+V4 → Visual and presentation refinement
+V5 → Validation and quality controls
+V6 → Further refinement
+V7 → Final high-reliability workflow
+
+Each version can be evaluated using the same weighted rubric.
+
+### Reproducibility
+
+The repository separates the main stages:
+
+Dataset → Prompt → Output → Validation → Evaluation → Refinement
+
+This makes the workflow easier to inspect, compare, and reproduce.
+
+### Project Focus
+
+**Prompt Engineering + AI Output Evaluation + Data Validation +
+Python Automation + Reproducible Testing**
+
+The project focuses not only on improving AI prompts, but also on
+building a repeatable process for checking and evaluating AI-generated
+outputs.
+
+### Limitations
+
+The project uses synthetic business data and AI-generated outputs
+for experimentation.
+
+Evaluation results are specific to the defined dataset, test cases,
+rubric, and model/output conditions.
+
+Human review remains important for business decisions, financial
+information, technical claims, and domain-specific conclusions.
+
+---
+
+FINAL REPOSITORY STRUCTURE
+
+AI-Presentation-Prompt-Engineering/
+├── dataset/
+│   └── novaflow_q2_2026.csv
+│
+├── python/
+│   ├── data_validator.py
+│   ├── calculation_checker.py
+│   ├── evaluation_scorer.py
+│   └── README.md
+│
+├── evaluations/
+│   ├── evaluation_rubric.md
+│   ├── version_scores.csv
+│   └── failure_analysis.md
+│
+├── README.md
+└── requirements.txt
+
+
+## What this automation actually demonstrates
+
+**Dataset**
+→ structured source data
+
+**Python**
+→ deterministic validation and calculation checking
+
+**Evaluation**
+→ consistent weighted scoring
+
+**Failure Analysis**
+→ systematic identification of output problems
+
+**Prompt Versions**
+→ iterative experimentation
+
+**Reproducibility**
+→ repeatable workflow instead of one-time prompting
+
+This keeps the project focused on:
+
+**Prompt Engineering + AI Evaluation + Python Automation**
+
+and avoids unrelated APK, blockchain, cybersecurity, ML, or Docker additions.
+
 • Explicit requirement for an editable, downloadable ".pptx"
 
 Analysis
