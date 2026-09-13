@@ -495,3 +495,800 @@ This project demonstrates an expert-level experimental approach to prompt engine
 Controlled Iteration → Failure Analysis → Targeted Refinement → Structured Evaluation → Validation → Reproducibility
 
 The goal is not simply to create a longer prompt, but to systematically engineer and evaluate a more reliable prompting workflow.
+Technical Validation & Automation
+
+The project was extended beyond prompt iteration into a reproducible evaluation workflow.
+
+The goal is not only to improve the prompt, but also to verify whether AI-generated presentation output preserves source data, calculations, evidence, structure, and decision-relevant information.
+
+Validation Workflow
+
+Source Dataset
+      ↓
+Prompt Version
+      ↓
+AI-Generated Output
+      ↓
+Automated Validation
+      ↓
+Evaluation Rubric
+      ↓
+Failure Analysis
+      ↓
+Prompt Refinement
+      ↓
+Final V7 Output
+NOVAFLOW workflow UPGRADE
+____pytgon automation ______
+
+
+
+Technical Validation & Automation
+
+The project was extended beyond prompt iteration into a reproducible evaluation workflow.
+
+The goal is not only to improve the prompt, but to verify whether AI-generated output preserves source data, calculations, evidence, structure, and decision-relevant information.
+
+Validation Workflow
+
+Source Dataset
+      ↓
+Prompt Version
+      ↓
+AI-Generated Output
+      ↓
+Automated Validation
+      ↓
+Evaluation Rubric
+      ↓
+Failure Analysis
+      ↓
+Prompt Refinement
+      ↓
+Final V7 Output
+
+The workflow combines prompt engineering with lightweight Python-based validation.
+
+What Is Validated?
+
+- Source-data consistency
+- Numerical, percentage, and percentage-point calculations
+- Missing or duplicated metrics
+- Unsupported claims
+- Facts vs. interpretation
+- Output completeness
+- Evaluation scores
+- Reproducibility
+
+---
+
+Python Validation Layer
+
+Python is used as a supporting validation layer for information that can be checked deterministically from the source dataset.
+
+python/
+├── data_validator.py
+├── calculation_checker.py
+├── evaluation_scorer.py
+└── README.md
+
+Data Validator
+
+"python/data_validator.py"
+
+Checks required source metrics and expected fields in the structured AI output.
+
+Calculation Checker
+
+"python/calculation_checker.py"
+
+Checks:
+
+- Q1 → Q2 changes
+- Percentage change
+- Percentage-point change
+- Totals and ratios
+
+This helps identify calculations that may appear plausible but do not match the source data.
+
+Evaluation Scorer
+
+"python/evaluation_scorer.py"
+
+Applies the evaluation rubric to structured results and calculates a weighted overall score.
+
+The score represents performance under the project's defined conditions, not a universal AI accuracy guarantee.
+
+---
+
+Structured Evaluation
+
+Prompt versions can be evaluated using the same weighted rubric:
+
+Criterion| Weight
+Data accuracy| 20%
+Calculation accuracy| 15%
+Evidence / claim consistency| 15%
+Completeness| 10%
+Relevance| 10%
+Narrative structure| 10%
+Visual usefulness| 5%
+Professional clarity| 5%
+Speaker-note quality| 5%
+Meeting readiness| 5%
+
+Total: 100%
+
+The weighting can evolve, but the same rubric should be used consistently when comparing versions.
+
+---
+
+Prompt Version Testing
+
+Each major prompt version is treated as an experiment rather than simply a rewritten prompt.
+
+V1 → Baseline
+V2 → Structural refinement
+V3 → Evidence and narrative improvement
+V4 → Visual and presentation refinement
+V5 → Validation and quality controls
+V6 → Further refinement
+V7 → High-reliability workflow
+
+Each version is stored separately so changes can be inspected and compared.
+
+prompts/
+├── V1.md
+├── V2.md
+├── V3.md
+├── V4.md
+├── V5.md
+├── V6.md
+└── V7.md
+
+---
+
+Failure Analysis
+
+The project records observable AI-output failure modes, including:
+
+- Numerical errors
+- Missing source information
+- Unsupported causal claims
+- Fact/interpretation confusion
+- Redundant content
+- Poor visual selection
+- Inconsistent terminology
+- Unclear business implications
+
+This makes prompt refinement evidence-based rather than purely subjective.
+
+File: "evaluations/failure_analysis.md"
+
+---
+
+Reproducibility
+
+The repository separates the main stages of the experiment:
+
+Dataset
+   ↓
+Prompt Version
+   ↓
+Generated Output
+   ↓
+Validation
+   ↓
+Evaluation
+   ↓
+Comparison
+
+This allows the experiment to be understood and repeated from its source data through its final comparison.
+
+---
+
+Repository Structure
+
+AI-Presentation-Prompt-Engineering/
+│
+├── dataset/
+│   └── novaflow_q2_2026.csv
+│
+├── prompts/
+│   ├── V1.md
+│   ├── V2.md
+│   ├── V3.md
+│   ├── V4.md
+│   ├── V5.md
+│   ├── V6.md
+│   └── V7.md
+│
+├── outputs/
+│   ├── V1/
+│   ├── V2/
+│   ├── V3/
+│   ├── V4/
+│   ├── V5/
+│   ├── V6/
+│   └── V7/
+│
+├── evaluations/
+│   ├── evaluation_rubric.md
+│   ├── version_scores.csv
+│   └── failure_analysis.md
+│
+├── comparisons/
+│   └── V1_vs_V7.md
+│
+├── python/
+│   ├── data_validator.py
+│   ├── calculation_checker.py
+│   ├── evaluation_scorer.py
+│   └── README.md
+│
+├── presentations/
+│   └── NovaFlow_Q2_High_Reliability_Output.pptx
+│
+├── requirements.txt
+└── README.md
+
+---
+
+Final Presentation
+
+NovaFlow Q2 High-Reliability Output
+
+"View Presentation" (https://ap.wps.com/cms/docs/d/cbCaet6VrAabjtaP?sa=601.1074&utm_source=chatgpt.com)
+
+The final presentation represents the latest stage of the prompt-engineering workflow.
+
+---
+
+Limitations
+
+This project uses synthetic business data and AI-generated outputs for experimentation.
+
+Evaluation results are specific to the defined dataset, test cases, rubric, and model/output conditions. They should not be interpreted as universal measurements of AI accuracy or reliability.
+
+Human review remains important for business decisions, financial information, technical claims, and domain-specific conclusions.
+
+---
+
+Future Development
+
+Potential improvements include:
+
+- Additional datasets and systematic test cases
+- Automated regression testing
+- More model comparisons
+- Larger-scale prompt evaluation
+- A lightweight evaluation dashboard
+- Automated report generation
+
+---
+
+Project Focus
+
+Prompt Engineering
+        +
+AI Output Evaluation
+        +
+Data Validation
+        +
+Python Automation
+        +
+Reproducible Testing
+
+The project focuses not only on improving the prompt, but also on creating a repeatable process to evaluate whether the resulting AI output is accurate, consistent, evidence-based, and useful.
+
+---
+
+2. CREATE THE DATASET
+
+"dataset/novaflow_q2_2026.csv"
+
+Use the actual NovaFlow source dataset used for the V7 presentation.
+
+Do not create a separate dataset just to fill the folder. The CSV should contain the same source values used in the experiment.
+
+Example structure:
+
+metric,q1,q2,unit
+users,82400,101600,count
+revenue,18400000,22100000,INR
+retention,91.1,89.4,percent
+support_time,7.2,10.6,hours
+crash_rate,1.4,2.7,percent
+ai_assistant_adoption,24,38,percent
+
+Include the remaining metrics from the actual source dataset as well.
+
+---
+
+3. CREATE THE PROMPT FILES
+
+Create:
+
+prompts/V1.md
+prompts/V2.md
+prompts/V3.md
+prompts/V4.md
+prompts/V5.md
+prompts/V6.md
+prompts/V7.md
+
+Store the actual prompt used for each version in its corresponding file.
+
+Use this structure:
+
+# NovaFlow Prompt V7
+
+## Purpose
+
+High-reliability AI presentation generation and validation workflow.
+
+## Input
+
+NovaFlow Q2 2026 synthetic product-performance dataset.
+
+## Prompt
+
+PASTE THE EXACT PROMPT USED FOR THIS VERSION HERE.
+
+## Main Changes From Previous Version
+
+- ...
+- ...
+- ...
+
+## Expected Improvements
+
+- ...
+- ...
+
+Preserve historical prompts rather than rewriting them to look better.
+
+---
+
+4. CREATE THE PYTHON AUTOMATION
+
+"python/data_validator.py"
+
+import csv
+import json
+from pathlib import Path
+
+DATASET = Path("dataset/novaflow_q2_2026.csv")
+OUTPUT = Path("outputs/V7/output.json")
+
+REQUIRED_FIELDS = {"metric", "q1", "q2", "unit"}
+
+
+def load_dataset():
+    with DATASET.open("r", encoding="utf-8") as file:
+        return list(csv.DictReader(file))
+
+
+def load_output():
+    if not OUTPUT.exists():
+        raise FileNotFoundError(
+            f"Structured V7 output not found: {OUTPUT}"
+        )
+
+    with OUTPUT.open("r", encoding="utf-8") as file:
+        return json.load(file)
+
+
+def validate_dataset(rows):
+    errors = []
+
+    for index, row in enumerate(rows, start=2):
+        missing = REQUIRED_FIELDS - set(row.keys())
+
+        if missing:
+            errors.append(
+                f"Row {index}: missing fields {sorted(missing)}"
+            )
+
+    return errors
+
+
+def validate_output(output):
+    errors = []
+
+    if not isinstance(output, dict):
+        errors.append("V7 output must be a JSON object.")
+
+    return errors
+
+
+def main():
+    dataset = load_dataset()
+    output = load_output()
+
+    errors = []
+    errors.extend(validate_dataset(dataset))
+    errors.extend(validate_output(output))
+
+    print("NovaFlow V7 Validation")
+    print("=" * 30)
+
+    if errors:
+        print("FAILED")
+        for error in errors:
+            print("-", error)
+    else:
+        print("PASSED")
+        print(f"Dataset rows checked: {len(dataset)}")
+
+
+if __name__ == "__main__":
+    main()
+
+---
+
+5. CREATE THE CALCULATION CHECKER
+
+"python/calculation_checker.py"
+
+import csv
+from pathlib import Path
+
+DATASET = Path("dataset/novaflow_q2_2026.csv")
+
+
+def percentage_change(old, new):
+    if old == 0:
+        return None
+
+    return ((new - old) / old) * 100
+
+
+def main():
+    with DATASET.open("r", encoding="utf-8") as file:
+        rows = list(csv.DictReader(file))
+
+    print("NovaFlow Calculation Check")
+    print("=" * 30)
+
+    for row in rows:
+        try:
+            q1 = float(row["q1"])
+            q2 = float(row["q2"])
+        except (ValueError, TypeError):
+            continue
+
+        change = percentage_change(q1, q2)
+
+        if change is not None:
+            print(
+                f'{row["metric"]}: '
+                f'Q1={q1}, Q2={q2}, '
+                f'change={change:.2f}%'
+            )
+
+
+if __name__ == "__main__":
+    main()
+
+This verifies deterministic calculations from the dataset; it does not claim to detect every AI hallucination.
+
+---
+
+6. CREATE THE EVALUATION SCORER
+
+"python/evaluation_scorer.py"
+
+CRITERIA = {
+    "data_accuracy": 20,
+    "calculation_accuracy": 15,
+    "evidence_consistency": 15,
+    "completeness": 10,
+    "relevance": 10,
+    "narrative_structure": 10,
+    "visual_usefulness": 5,
+    "professional_clarity": 5,
+    "speaker_notes": 5,
+    "meeting_readiness": 5,
+}
+
+
+def calculate_score(results):
+    score = 0
+
+    for criterion, weight in CRITERIA.items():
+        rating = results.get(criterion, 0)
+        score += (rating / 100) * weight
+
+    return round(score, 2)
+
+
+def main():
+    results = {
+        "data_accuracy": 0,
+        "calculation_accuracy": 0,
+        "evidence_consistency": 0,
+        "completeness": 0,
+        "relevance": 0,
+        "narrative_structure": 0,
+        "visual_usefulness": 0,
+        "professional_clarity": 0,
+        "speaker_notes": 0,
+        "meeting_readiness": 0,
+    }
+
+    print("NovaFlow Evaluation Score")
+    print("=" * 30)
+    print(f"Overall score: {calculate_score(results)}/100")
+
+
+if __name__ == "__main__":
+    main()
+
+The scorer calculates the weighted result. Actual evaluation ratings should come from the project's real evaluation process.
+
+---
+
+7. CREATE PYTHON README
+
+"python/README.md"
+
+# NovaFlow Python Validation Tools
+
+These scripts provide lightweight deterministic checks for the NovaFlow prompt-engineering experiment.
+
+## Tools
+
+### data_validator.py
+
+Checks the source dataset and structured AI output for expected fields and structure.
+
+### calculation_checker.py
+
+Calculates deterministic Q1 → Q2 changes from the source dataset.
+
+### evaluation_scorer.py
+
+Calculates a weighted evaluation score from evaluation results.
+
+## Run
+
+From the repository root:
+
+```bash
+python python/data_validator.py
+python python/calculation_checker.py
+python python/evaluation_scorer.py
+
+Scope
+
+These tools verify measurable parts of the experiment. They do not prove universal AI reliability.
+
+
+---
+
+# 8. CREATE `requirements.txt`
+
+```text
+# NovaFlow currently uses Python standard-library tools.
+# No third-party dependencies are required.
+
+---
+
+9. CREATE EVALUATION RUBRIC
+
+"evaluations/evaluation_rubric.md"
+
+# NovaFlow Evaluation Rubric
+
+## Scoring
+
+Each criterion is rated from 0–100.
+
+| Criterion | Weight |
+|---|---:|
+| Data accuracy | 20% |
+| Calculation accuracy | 15% |
+| Evidence / claim consistency | 15% |
+| Completeness | 10% |
+| Relevance | 10% |
+| Narrative structure | 10% |
+| Visual usefulness | 5% |
+| Professional clarity | 5% |
+| Speaker-note quality | 5% |
+| Meeting readiness | 5% |
+
+## Interpretation
+
+90–100: Strong under the defined evaluation conditions
+
+80–89: Good with identifiable weaknesses
+
+70–79: Moderate; improvement required
+
+Below 70: Significant weaknesses
+
+## Important
+
+The score is specific to the dataset, model/output, test conditions, and rubric used.
+
+It is not a universal AI reliability measurement.
+
+---
+
+10. CREATE VERSION SCORES
+
+"evaluations/version_scores.csv"
+
+version,data_accuracy,calculation_accuracy,evidence_consistency,completeness,relevance,narrative_structure,visual_usefulness,professional_clarity,speaker_notes,meeting_readiness,overall_score
+V1,,,,,,,,,,
+V2,,,,,,,,,,
+V3,,,,,,,,,,
+V4,,,,,,,,,,
+V5,,,,,,,,,,
+V6,,,,,,,,,,
+V7,,,,,,,,,,
+
+Add scores only after actually evaluating the versions.
+
+---
+
+11. CREATE FAILURE ANALYSIS
+
+"evaluations/failure_analysis.md"
+
+# Failure Analysis
+
+The project records observable weaknesses found during prompt evaluation.
+
+## Failure Categories
+
+### Numerical Error
+A calculation does not match the source dataset.
+
+### Unsupported Claim
+A cause, explanation, or conclusion is not supported by available evidence.
+
+### Missing Information
+A relevant source metric or finding is omitted.
+
+### Redundancy
+The same insight is repeated without adding value.
+
+### Visual Mismatch
+A chart, table, or visual format does not appropriately represent the data.
+
+### Fact / Interpretation Confusion
+Source facts are not clearly separated from interpretation or recommendation.
+
+## Recorded Cases
+
+Record actual failure cases found during evaluation, together with their evidence and correction.
+
+---
+
+12. CREATE V1 VS V7 COMPARISON
+
+"comparisons/V1_vs_V7.md"
+
+# V1 vs V7
+
+## Purpose
+
+Compare the baseline prompt with the final prompt to identify measurable improvements and remaining limitations.
+
+| Area | V1 | V7 |
+|---|---|---|
+| Data accuracy | Evaluate | Evaluate |
+| Calculation accuracy | Evaluate | Evaluate |
+| Evidence consistency | Evaluate | Evaluate |
+| Structure | Evaluate | Evaluate |
+| Visual usefulness | Evaluate | Evaluate |
+| Recommendations | Evaluate | Evaluate |
+| Meeting readiness | Evaluate | Evaluate |
+
+## Main Improvements
+
+Record improvements supported by the evaluation results.
+
+## Remaining Limitations
+
+Record weaknesses that remain in V7.
+
+## Conclusion
+
+V7 represents the current final iteration under the defined dataset, evaluation criteria, and test conditions.
+
+---
+
+13. OUTPUTS
+
+Create:
+
+outputs/
+├── V1/
+├── V2/
+├── V3/
+├── V4/
+├── V5/
+├── V6/
+└── V7/
+
+Store the actual output from each prompt version in its corresponding folder.
+
+For V7:
+
+outputs/V7/
+├── output.json
+└── evaluation_notes.md
+
+Create "output.json" only when a structured version of the actual AI output is available.
+
+---
+
+14. PRESENTATION
+
+Create:
+
+presentations/
+
+Place the actual final presentation here:
+
+presentations/NovaFlow_Q2_High_Reliability_Output.pptx
+
+Keep the WPS link in the README as the external viewing option.
+
+---
+
+15. OPTIONAL DASHBOARD
+
+A Streamlit dashboard can be added later after real evaluation data exists.
+
+It could display:
+
+NovaFlow Prompt Evaluation
+
+V1 ───────── evaluated
+V2 ───────── evaluated
+V3 ───────── evaluated
+V4 ───────── evaluated
+V5 ───────── evaluated
+V6 ───────── evaluated
+V7 ───────── evaluated
+
+Do not create a dashboard with invented scores just to make the project look advanced.
+
+---
+
+16. WHAT NOT TO ADD
+
+Do not add:
+
+- An APK
+- Unrelated blockchain features
+- Unrelated cybersecurity tools
+- Random AI APIs
+- Unrelated machine-learning models
+- Docker only for appearance
+
+The strongest technical identity of this project is:
+
+Prompt Engineering + AI Evaluation + Data Validation + Python Automation + Reproducible Testing
+
+---
+
+17. FINAL PROJECT STRUCTURE
+
+AI-Presentation-Prompt-Engineering/
+│
+├── dataset/
+├── prompts/
+├── outputs/
+├── evaluations/
+├── comparisons/
+├── python/
+├── presentations/
+├── requirements.txt
+└── README.md
+
+This structure keeps the project focused on prompt engineering while adding practical validation, automation, evaluation, and reproducibility.
