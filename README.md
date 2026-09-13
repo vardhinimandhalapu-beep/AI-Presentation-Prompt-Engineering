@@ -1776,3 +1776,11 @@ NovaFlow is a reusable Python workflow for structured-data validation, analysis,
 The core workflow uses Python 3.10+ and runs without an API key or third-party package.
 
 **Note:** The included NovaFlow dataset is synthetic. Validation flags issues for review and does not guarantee semantic correctness; human review remains required.
+Problem Source & Resources
+###########_____________###########
+
+Problem: Creating presentation-ready business reports can involve repetitive manual work—structuring information, building slides, formatting, and refining outputs.
+
+Source: Microsoft Work Trend Index 2025 highlights increasing workplace workload, fragmented work, and the need to redesign workflows with AI and automation.
+
+Resources used: Gamma • Python / python-pptx • Pydroid 3 • Canva • Official documentation
