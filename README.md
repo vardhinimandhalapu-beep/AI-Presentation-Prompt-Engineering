@@ -1754,3 +1754,25 @@ AI-Presentation-Prompt-Engineering/
 └── README.md
 
 This structure keeps the project focused on prompt engineering while adding practical validation, automation, evaluation, and reproducibility.
+# NovaFlow — Prompt Engineering, Data Analysis & Python Automation
+
+NovaFlow is a reusable Python workflow for structured-data validation, analysis, security-aware processing, AI/API integration, output validation, evaluation, and automated reporting.
+
+### Workflow
+`Dataset → Validate → Analyse → Secure → Prompt/API → Validate Output → Evaluate → Refine → Re-test`
+
+### Implemented
+- CSV schema, data-type, missing-value, duplicate and invalid-data validation
+- Statistical analysis and IQR-based outlier flagging
+- Column comparison and percentage-change analysis
+- JSON/CSV reporting with configurable validation rules
+- CLI, logging, exception handling and automated tests
+- SHA-256 file-integrity verification
+- Formula-injection, sensitive-column, path and file-size checks
+- Environment-based API-key protection
+- Structured AI-output/JSON validation
+- Evaluation and failure-analysis framework
+
+The core workflow uses Python 3.10+ and runs without an API key or third-party package.
+
+**Note:** The included NovaFlow dataset is synthetic. Validation flags issues for review and does not guarantee semantic correctness; human review remains required.
